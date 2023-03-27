@@ -29,8 +29,7 @@ job:
         - YARN_GPG=no
 os:
   - linux
-git:
-  quiet: true
+
 
 install: 
   - pip install -r requirements.dev.txt
